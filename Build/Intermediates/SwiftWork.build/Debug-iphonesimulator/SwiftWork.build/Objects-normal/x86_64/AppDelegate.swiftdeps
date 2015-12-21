@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C9SwiftWork11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
-- "applicationWillEnterForeground"
 - "applicationWillResignActive"
-- "applicationDidEnterBackground"
-- "application"
 - "applicationWillTerminate"
+- "application"
+- "applicationDidBecomeActive"
 - "window"
+- "applicationWillEnterForeground"
+- "applicationDidEnterBackground"
 depends-top-level:
-- "UIApplicationDelegate"
-- "UIWindow"
 - "AppDelegate"
-- "UIResponder"
 - "UIApplication"
-- "NSObject"
-- "Bool"
+- "UIResponder"
+- "UIWindow"
 - !private "BooleanLiteralType"
+- "Bool"
+- "UIApplicationDelegate"
 - "AnyObject"
+- "NSObject"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -119,6 +119,36 @@ depends-member:
 - ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
+- ["PSo8MJCoding", "application"]
+- ["PSo8MJCoding", "applicationDidBecomeActive"]
+- ["PSo8MJCoding", "applicationDidEnterBackground"]
+- ["PSo8MJCoding", "applicationDidFinishLaunching"]
+- ["PSo8MJCoding", "applicationDidReceiveMemoryWarning"]
+- ["PSo8MJCoding", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo8MJCoding", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo8MJCoding", "applicationShouldRequestHealthAuthorization"]
+- ["PSo8MJCoding", "applicationSignificantTimeChange"]
+- ["PSo8MJCoding", "applicationWillEnterForeground"]
+- ["PSo8MJCoding", "applicationWillResignActive"]
+- ["PSo8MJCoding", "applicationWillTerminate"]
+- ["PSo8MJCoding", "init"]
+- ["PSo8MJCoding", "window"]
+- ["PSo8MJCoding", ""]
+- ["PSo10MJKeyValue", "application"]
+- ["PSo10MJKeyValue", "applicationDidBecomeActive"]
+- ["PSo10MJKeyValue", "applicationDidEnterBackground"]
+- ["PSo10MJKeyValue", "applicationDidFinishLaunching"]
+- ["PSo10MJKeyValue", "applicationDidReceiveMemoryWarning"]
+- ["PSo10MJKeyValue", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo10MJKeyValue", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo10MJKeyValue", "applicationShouldRequestHealthAuthorization"]
+- ["PSo10MJKeyValue", "applicationSignificantTimeChange"]
+- ["PSo10MJKeyValue", "applicationWillEnterForeground"]
+- ["PSo10MJKeyValue", "applicationWillResignActive"]
+- ["PSo10MJKeyValue", "applicationWillTerminate"]
+- ["PSo10MJKeyValue", "init"]
+- ["PSo10MJKeyValue", "window"]
+- ["PSo10MJKeyValue", ""]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "NSObject"]
@@ -194,6 +224,8 @@ depends-nominal:
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
 - "PSs8Hashable"
+- "PSo8MJCoding"
+- "PSo10MJKeyValue"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo21UIApplicationDelegate"
@@ -201,11 +233,46 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJFoundation.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/NSString+MJExtension.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJPropertyKey.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJPropertyType.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJProperty.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/NSObject+MJKeyValue.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/NSObject+MJClass.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/NSObject+MJProperty.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJExtensionConst.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/NSObject+MJCoding.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJExtension.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJDictionaryCache.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJExtension-umbrella.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"
