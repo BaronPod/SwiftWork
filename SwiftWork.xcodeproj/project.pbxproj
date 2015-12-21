@@ -14,6 +14,20 @@
 		9263F82F1C27D0D8008550C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9263F82D1C27D0D8008550C2 /* LaunchScreen.storyboard */; };
 		9263F83A1C27D0D8008550C2 /* SwiftWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8391C27D0D8008550C2 /* SwiftWorkTests.swift */; };
 		9263F8451C27D0D8008550C2 /* SwiftWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8441C27D0D8008550C2 /* SwiftWorkUITests.swift */; };
+		9263F8561C27D706008550C2 /* BtypeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8551C27D706008550C2 /* BtypeEntity.swift */; };
+		9263F8581C27D75A008550C2 /* BattachmentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8571C27D75A008550C2 /* BattachmentEntity.swift */; };
+		9263F85A1C27D77B008550C2 /* BcommentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8591C27D77B008550C2 /* BcommentEntity.swift */; };
+		9263F85C1C27D78F008550C2 /* BconfigEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F85B1C27D78F008550C2 /* BconfigEntity.swift */; };
+		9263F85E1C27D7A1008550C2 /* BeventEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F85D1C27D7A1008550C2 /* BeventEntity.swift */; };
+		9263F8601C27D7B1008550C2 /* BlogEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F85F1C27D7B1008550C2 /* BlogEntity.swift */; };
+		9263F8621C27D7D1008550C2 /* BpraiseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8611C27D7D1008550C2 /* BpraiseEntity.swift */; };
+		9263F8641C27D7E0008550C2 /* BreplyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8631C27D7E0008550C2 /* BreplyEntity.swift */; };
+		9263F8661C27D800008550C2 /* BresourceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8651C27D800008550C2 /* BresourceEntity.swift */; };
+		9263F8681C27D810008550C2 /* BroleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8671C27D810008550C2 /* BroleEntity.swift */; };
+		9263F86A1C27D821008550C2 /* BrolegroupEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F8691C27D821008550C2 /* BrolegroupEntity.swift */; };
+		9263F86C1C27D833008550C2 /* BuserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F86B1C27D833008550C2 /* BuserEntity.swift */; };
+		9263F86E1C27D905008550C2 /* urlCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F86D1C27D905008550C2 /* urlCom.swift */; };
+		9263F8701C27E0E5008550C2 /* JsonEE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263F86F1C27E0E5008550C2 /* JsonEE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		9263F8401C27D0D8008550C2 /* SwiftWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9263F8441C27D0D8008550C2 /* SwiftWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWorkUITests.swift; sourceTree = "<group>"; };
 		9263F8461C27D0D8008550C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9263F8551C27D706008550C2 /* BtypeEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtypeEntity.swift; sourceTree = "<group>"; };
+		9263F8571C27D75A008550C2 /* BattachmentEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattachmentEntity.swift; sourceTree = "<group>"; };
+		9263F8591C27D77B008550C2 /* BcommentEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BcommentEntity.swift; sourceTree = "<group>"; };
+		9263F85B1C27D78F008550C2 /* BconfigEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BconfigEntity.swift; sourceTree = "<group>"; };
+		9263F85D1C27D7A1008550C2 /* BeventEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeventEntity.swift; sourceTree = "<group>"; };
+		9263F85F1C27D7B1008550C2 /* BlogEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogEntity.swift; sourceTree = "<group>"; };
+		9263F8611C27D7D1008550C2 /* BpraiseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BpraiseEntity.swift; sourceTree = "<group>"; };
+		9263F8631C27D7E0008550C2 /* BreplyEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreplyEntity.swift; sourceTree = "<group>"; };
+		9263F8651C27D800008550C2 /* BresourceEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BresourceEntity.swift; sourceTree = "<group>"; };
+		9263F8671C27D810008550C2 /* BroleEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroleEntity.swift; sourceTree = "<group>"; };
+		9263F8691C27D821008550C2 /* BrolegroupEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrolegroupEntity.swift; sourceTree = "<group>"; };
+		9263F86B1C27D833008550C2 /* BuserEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuserEntity.swift; sourceTree = "<group>"; };
+		9263F86D1C27D905008550C2 /* urlCom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = urlCom.swift; sourceTree = "<group>"; };
+		9263F86F1C27E0E5008550C2 /* JsonEE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonEE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +105,9 @@
 		9263F8181C27D0D7008550C2 = {
 			isa = PBXGroup;
 			children = (
+				9263F8541C27D6B7008550C2 /* Dao */,
+				9263F8531C27D66B008550C2 /* Operation */,
+				9263F8521C27D65C008550C2 /* Model */,
 				9263F8231C27D0D7008550C2 /* SwiftWork */,
 				9263F8381C27D0D8008550C2 /* SwiftWorkTests */,
 				9263F8431C27D0D8008550C2 /* SwiftWorkUITests */,
@@ -123,6 +154,41 @@
 				9263F8461C27D0D8008550C2 /* Info.plist */,
 			);
 			path = SwiftWorkUITests;
+			sourceTree = "<group>";
+		};
+		9263F8521C27D65C008550C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9263F8551C27D706008550C2 /* BtypeEntity.swift */,
+				9263F8571C27D75A008550C2 /* BattachmentEntity.swift */,
+				9263F8591C27D77B008550C2 /* BcommentEntity.swift */,
+				9263F85B1C27D78F008550C2 /* BconfigEntity.swift */,
+				9263F85D1C27D7A1008550C2 /* BeventEntity.swift */,
+				9263F85F1C27D7B1008550C2 /* BlogEntity.swift */,
+				9263F8611C27D7D1008550C2 /* BpraiseEntity.swift */,
+				9263F8631C27D7E0008550C2 /* BreplyEntity.swift */,
+				9263F8651C27D800008550C2 /* BresourceEntity.swift */,
+				9263F8671C27D810008550C2 /* BroleEntity.swift */,
+				9263F8691C27D821008550C2 /* BrolegroupEntity.swift */,
+				9263F86B1C27D833008550C2 /* BuserEntity.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9263F8531C27D66B008550C2 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				9263F86D1C27D905008550C2 /* urlCom.swift */,
+				9263F86F1C27E0E5008550C2 /* JsonEE.swift */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		9263F8541C27D6B7008550C2 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dao;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +322,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9263F86C1C27D833008550C2 /* BuserEntity.swift in Sources */,
+				9263F8641C27D7E0008550C2 /* BreplyEntity.swift in Sources */,
+				9263F8561C27D706008550C2 /* BtypeEntity.swift in Sources */,
 				9263F8271C27D0D7008550C2 /* ViewController.swift in Sources */,
+				9263F8621C27D7D1008550C2 /* BpraiseEntity.swift in Sources */,
+				9263F85E1C27D7A1008550C2 /* BeventEntity.swift in Sources */,
+				9263F8681C27D810008550C2 /* BroleEntity.swift in Sources */,
+				9263F8661C27D800008550C2 /* BresourceEntity.swift in Sources */,
+				9263F8581C27D75A008550C2 /* BattachmentEntity.swift in Sources */,
+				9263F86A1C27D821008550C2 /* BrolegroupEntity.swift in Sources */,
+				9263F8601C27D7B1008550C2 /* BlogEntity.swift in Sources */,
+				9263F8701C27E0E5008550C2 /* JsonEE.swift in Sources */,
+				9263F86E1C27D905008550C2 /* urlCom.swift in Sources */,
+				9263F85A1C27D77B008550C2 /* BcommentEntity.swift in Sources */,
 				9263F8251C27D0D7008550C2 /* AppDelegate.swift in Sources */,
+				9263F85C1C27D78F008550C2 /* BconfigEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
