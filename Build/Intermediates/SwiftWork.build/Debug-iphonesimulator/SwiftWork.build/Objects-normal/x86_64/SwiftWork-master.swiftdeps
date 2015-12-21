@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "996081003a792ed73aa9c973633d95ce"
+build_time: [503993819, 131865000]
+inputs:
+  "/Users/Baron/Desktop/MAC/Swift/SwiftWork/SwiftWork/ViewController.swift": [503993815, 0]
+  "/Users/Baron/Desktop/MAC/Swift/SwiftWork/SwiftWork/AppDelegate.swift": [503993815, 0]
