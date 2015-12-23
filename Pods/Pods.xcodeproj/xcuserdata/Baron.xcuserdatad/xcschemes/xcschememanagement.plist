@@ -14,12 +14,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AsyncSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReachabilitySwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +47,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>39BCF19F4D464DD2EE16507432FDA401</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>432ECC54282C84882B482CCB4CF227FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6964CC7247D83A0F1A48D5B6A9C422F0</key>
+		<key>4E155FBB6070C868840C7A2BB6E75E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>71C525D36F936DAAA986A5BA2D7BE04D</key>
+		<key>7D0D9E119AA543484DE6652839CB9764</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A43E1617B944D43C44F6B91300553735</key>
 		<dict>
 			<key>primary</key>
 			<true/>

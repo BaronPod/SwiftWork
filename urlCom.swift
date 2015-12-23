@@ -14,13 +14,17 @@ import Foundation
 public class urlCom {
     /**
      私有公共全局前置地址
+     默认取带有www前缀的地址
      */
-    private let URL : String = "https://www.ibaron.net.cn/ws/"
+    private enum URL : String {
+        case _url = "https://ibaron.net.cn/ws/",
+        _www = "https://www.ibaron.net.cn/ws/"
+    }
     
     /**
      操作方法枚举类型
      */
-    enum OperationMethod {
+    enum OperationMethod : String {
         case Add,
         Save,
         Delete,
@@ -69,7 +73,7 @@ public class urlCom {
     public func getURLString(url : String?, service : String, method : String) -> String {
         var tmp : String = "";
         if (url == nil || url == "") {
-            tmp = URL + service + method
+            tmp = URL._www.rawValue + service + method
         } else {
             tmp = url! + service + method
         }

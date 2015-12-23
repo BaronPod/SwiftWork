@@ -8,6 +8,7 @@
 
 import Foundation
 import AFNetworking
+import ReachabilitySwift
 
 /**
  网络帮助类
@@ -50,5 +51,37 @@ public class NetworkingHelp {
                     objResult = error.localizedDescription
             })
         }
+        
+    }
+    
+    /**
+     网络连接类型判断
+     
+     - returns:第一个返回网络连接是否可用，第二个返回网络连接类型是属于哪个
+     */
+    public func NetMethod() -> (String, String) {
+        var result1 : String = ""
+        var result2 : String = ""
+        let reachConn : Reachability
+        do {
+            reachConn = try Reachability.reachabilityForInternetConnection()
+            if reachConn.isReachable() {
+                result1 = "网络连接：可用"
+            } else {
+                result1 = "网络连接：不可用"
+            }
+            
+            if reachConn.isReachableViaWiFi() {
+                result2 = "连接类型：WiFi"
+            } else if reachConn.isReachableViaWWAN() {
+                result2 = "连接类型：移动网络"
+            } else {
+                result2 = "连接类型：没有网络连接"
+            }
+        } catch {
+            print("无法创建网络连接")
+            //return
+        }
+        return (result1, result2)
     }
 }

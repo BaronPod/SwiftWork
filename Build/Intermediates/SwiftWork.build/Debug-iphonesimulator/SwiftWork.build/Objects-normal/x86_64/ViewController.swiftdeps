@@ -9,8 +9,8 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 - "didReceiveMemoryWarning"
 depends-top-level:
-- "ViewController"
 - "UIViewController"
+- "ViewController"
 depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]
@@ -136,6 +136,14 @@ depends-external:
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/Async.framework/Headers/Async-Swift.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/Async.framework/Headers/AsyncSwift-umbrella.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/Async.framework/Modules/module.modulemap"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Modules/module.modulemap"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJFoundation.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/NSString+MJExtension.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJPropertyKey.h"
@@ -151,4 +159,4 @@ depends-external:
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJExtension-umbrella.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "686a82adb20a44ac147393aba711665d"
+interface-hash: "430f4a258e6c77377e5ff19d9b6f0054"

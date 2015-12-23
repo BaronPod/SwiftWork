@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C9SwiftWork11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
 - "applicationWillTerminate"
-- "application"
-- "applicationDidBecomeActive"
-- "window"
-- "applicationWillEnterForeground"
+- "applicationWillResignActive"
 - "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "application"
+- "window"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "AppDelegate"
-- "UIApplication"
-- "UIResponder"
-- "UIWindow"
-- !private "BooleanLiteralType"
-- "Bool"
 - "UIApplicationDelegate"
-- "AnyObject"
+- "UIWindow"
+- "AppDelegate"
+- "UIResponder"
 - "NSObject"
+- "Bool"
+- "UIApplication"
+- "AnyObject"
+- !private "BooleanLiteralType"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -260,6 +260,10 @@ depends-external:
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Modules/ReachabilitySwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Headers/ReachabilitySwift-Swift.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/ReachabilitySwift.framework/Modules/module.modulemap"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJFoundation.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/NSString+MJExtension.h"
 - "/Users/Baron/Desktop/MAC/Swift/SwiftWork/Build/Products/Debug-iphonesimulator/MJExtension.framework/Headers/MJPropertyKey.h"
